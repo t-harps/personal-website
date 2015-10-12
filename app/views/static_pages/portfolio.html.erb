@@ -1,2 +1,18 @@
-<h1>StaticPages#portfolio</h1>
-<p>Find me in app/views/static_pages/portfolio.html.erb</p>
+<div class="row child">
+	<div class="col-md-5">
+	  <p class="text">Finished Projects</p>
+	  <p>
+	  <%= link_to "Simple Facebook clone", "https://fakebook-1000.herokuapp.com" %>
+	   - 
+	  <%= link_to "GitHub", "https://github.com/t-harps/odin-facebook" %>
+	  </p>
+	  <p> Personal Website - <%= link_to "GitHub", "https://github.com/t-harps/personal-website" %>
+	  </p>
+	</div>
+	<div class="col-md-2"><br><%= link_to "Thomas Harpur", root_path %></div>
+	<div class="col-md-5">
+	  <p class="text">Works in progress</p>
+	  <p><%= link_to "Personal Blog", "#" %></p>
+	  <p><%= link_to "Budget App", "#" %></p>
+	</div>
+</div>
