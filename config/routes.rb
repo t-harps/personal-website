@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root               'static_pages#home'
-  get 'cv'        => 'static_pages#cv'
+  get 'about'     => 'static_pages#about'
   get 'portfolio' => 'static_pages#portfolio'
 
   # The priority is based upon order of creation: first created -> highest priority.

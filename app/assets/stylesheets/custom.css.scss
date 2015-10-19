@@ -6,23 +6,18 @@
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #000033;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  .text {
-    color: #939393;
-  }
-  .subtitle {
-    color: #bdbdbd;
-  }
-  .name {
+  .title {
+    color: #fff;
     font-family: 'Italiana', serif;
     font-size: 20px;
   }
-  .sub {
+  .text {
     color: #939393;
     font-size: 15px;
   }
@@ -38,8 +33,8 @@ body {
   *  background-position: center;
   *  background-attachment: fixed; 
   */
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,2);
+          box-shadow: inset 0 0 100px rgba(0,0,0,2);
 }
 
 [class*="col-"] {
@@ -65,7 +60,7 @@ body {
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: inherit;
 }
 
 .box {
@@ -73,8 +68,8 @@ a:hover {
 }
 
 .left {
-  text-align: left;
-  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .right {
