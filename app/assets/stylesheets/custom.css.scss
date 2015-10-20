@@ -6,7 +6,8 @@
 html,
 body {
   height: 100%;
-  background-color: #293F50;
+  background-color: #466368;
+  background: linear-gradient(to right bottom, #293f50, #1d292b);
 }
 body {
   color: #fff;
@@ -33,8 +34,7 @@ body {
   *  background-position: center;
   *  background-attachment: fixed; 
   */
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,2);
-          box-shadow: inset 0 0 100px rgba(0,0,0,2);
+
 }
 
 [class*="col-"] {
@@ -85,5 +85,5 @@ a:hover {
 }
 
 .border {
-  border-bottom: 5px dotted #939393;
+  border-bottom: 5px dotted #648880;
 }
