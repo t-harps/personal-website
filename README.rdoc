@@ -1,5 +1,5 @@
 == README
 
-This is my simple personal website containing information about me and links to my other projects.
+This is my simple personal website containing information about me and links to my other projects. Written using Ruby on Rails.
 
 
